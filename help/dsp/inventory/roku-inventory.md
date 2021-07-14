@@ -14,6 +14,17 @@ Roku and Advertising Cloud DSP have a unique partnership that matches your DSP a
 
 Outside of Roku’s own DSP (OneView), Advertising Cloud DSP has sole access to these targeting capabilities. Advertising Cloud DSP is also the only DSP with permission to measure Roku supply next to all other connected TV (CTV) inventory. Because Roku doesn't share all of the standard RTB and impression pixel signals, no other DSP can target or measure across Roku-sold CTV supply.
 
+## Roku Ad Specs
+
+Ads created to run on Roku Inventory should adhere to the following specs: https://roku.app.box.com/s/g311dlhfb6a0pyxdaikj5wfhqag4hzn9
+
+Best Practices:
+* No VPAID elements
+* 3 renditions must be included: MP4 1200-2100kbps, MP4 700-1200 kbps, MP4 360-500 kbps
+* Audio must be at -23 LUFS
+* IAS - Please only append CTV compatible tags. Roku cannot accept legacy IAS CTV pixels and legacy pixels will not pass QA. For additional monitoring, please grant daily access of verification reporting to: adsreporting@roku.com.
+* SLAs for campaign launch is about 5 business days, including 2-3 business days to QA tags.
+
 ## Roku Inventory Options
 
 You can either a) set up private deal IDs directly with Roku and then enter the deal ID data into DSP or b) visit the On Demand Gallery to subscribe to Roku profiles:
